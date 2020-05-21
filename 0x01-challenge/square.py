@@ -3,7 +3,7 @@
 
 
 class Square():
-"""Missing docstring in public class."""
+    """Missing docstring in public class."""
 
     width = 0
     height = 0
@@ -14,15 +14,17 @@ class Square():
             setattr(self, key, value)
 
     def area_of_my_square(self):
-        """ Area of the square """
+        """Area of the square."""
         return self.height * self.width
 
     def permiter_of_my_square(self):
-        """Missing docstring in premiter."""
+        """Missing docstring in method."""
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
+        """Missing docstring in method."""
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
 
